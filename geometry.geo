@@ -58,22 +58,3 @@ Physical Surface("sides", 29) = {50, 2};
 //+
 Physical Surface("Wall", 30) = {25, 33, 37, 41, 45, 49};
 //+
-Field[1] = Box;
-
-Field[1].VIn = 0.01;
-
-Field[1].XMin = 0.45;
-
-Field[1].XMax = 1.5;
-
-Field[1].YMin = 0.15;
-
-Field[1].YMax = 0.35;
-
-Field[1].ZMin = 0;
-
-Field[1].ZMax = 0.01;
-
-Background Field = 1;
-
-Mesh 3;

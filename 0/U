@@ -18,6 +18,11 @@ dimensions      [0 1 -1 0 0 0 0];
 
 internalField   uniform (0 0 0);
 
+nu 1.15e-6;
+d 0.1;
+Re 100;
+v #eval{$Re * ($nu/$d)};
+
 boundaryField
 {
     Wall

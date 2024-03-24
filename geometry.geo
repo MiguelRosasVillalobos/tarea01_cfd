@@ -1,4 +1,4 @@
-lc = 0.01;
+lc = 0.02;
 //+
 Point(1) = {0, 0, 0,lc};
 //+
@@ -48,13 +48,13 @@ Extrude {0, 0, 0.01} {
 }
 Transfinite Volume {1};
 //+
-Physical Surface("inlet", 25) = {21};
+Physical Surface("inlet", 1) = {21};
 //+
-Physical Surface("outlet", 27) = {29};
+Physical Surface("outlet", 2) = {29};
 //+
-Physical Volume("interior", 28) = {1};
+Physical Volume("interior", 1) = {1};
 //+
-Physical Surface("sides", 29) = {50, 2};
+Physical Surface("sides", 3) = {50, 2};
 //+
-Physical Surface("Wall", 30) = {25, 33, 37, 41, 45, 49};
+Physical Surface("Wall", 4) = {25, 33, 37, 41, 45, 49};
 //+
